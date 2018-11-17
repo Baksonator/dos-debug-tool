@@ -1,1 +1,1 @@
-# tsr
+It can be run using NASM, the command domaci1.asm -start will start the TSR program and you can continue using DOS as usual. You can see the values of all the registers by using interrupt 60h in your programs. The only parameter is ah, ah=0 is for register values, and ah=1 is for stack values.
